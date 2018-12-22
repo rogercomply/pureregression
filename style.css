@@ -4,7 +4,7 @@ Theme URI: https://blog.paranoidpenguin.net/pureregression/
 Author: Roger Comply
 Author URI: https://blog.paranoidpenguin.net/
 Description: A responsive WordPress theme done wrong
-Version: 0.3
+Version: 0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, responsive-layout, sticky-post
@@ -14,23 +14,27 @@ pre,
 table,
 td,
 th {
-    background: #f8f8f8;
+    background: #f8f8f8
 }
+
 body,
 img {
-    border: 0;
+    border: 0
 }
+
 body,
 pre {
-    word-wrap: break-word;
+    word-wrap: break-word
 }
+
 .gallery .gallery-caption,
 .gallery-item,
 caption,
 td,
 th {
-    text-align: left;
+    text-align: left
 }
+
 .clear:after,
 .entry-content:after,
 .nav-links:after,
@@ -39,51 +43,59 @@ th {
 .site:after,
 .textwidget:after,
 nav:after {
-    clear: both;
+    clear: both
 }
+
 blockquote:after,
 blockquote:before,
 nav:after,
 q:after,
 q:before {
-    content: "";
+    content: ""
 }
+
 @font-face {
     font-family: 'Roboto Mono';
     font-style: normal;
     font-weight: 400;
-    src: local('Roboto Mono'),local('RobotoMono-Regular'),url(fonts/Roboto_Mono_400.woff2) format('woff2'),url(fonts/Roboto_Mono_400.woff) format('woff'),url(fonts/Roboto_Mono_400.ttf) format('truetype');
+    src: local('Roboto Mono'), local('RobotoMono-Regular'), url(fonts/Roboto_Mono_400.woff2) format('woff2'), url(fonts/Roboto_Mono_400.woff) format('woff'), url(fonts/Roboto_Mono_400.ttf) format('truetype')
 }
+
 @font-face {
     font-family: Raleway;
     font-style: normal;
     font-weight: 400;
-    src: local('Raleway'),local('Raleway-Regular'),url(fonts/Raleway_400.woff2) format('woff2'),url(fonts/Raleway_400.woff) format('woff'),url(fonts/Raleway_400.ttf) format('truetype');
+    src: local('Raleway'), local('Raleway-Regular'), url(fonts/Raleway_400.woff2) format('woff2'), url(fonts/Raleway_400.woff) format('woff'), url(fonts/Raleway_400.ttf) format('truetype')
 }
+
 @font-face {
     font-family: Raleway;
     font-style: italic;
     font-weight: 400;
-    src: local('Raleway Italic'),local('Raleway-Italic'),url(fonts/Raleway_400italic.woff2) format('woff2'),url(fonts/Raleway_400italic.woff) format('woff'),url(fonts/Raleway_400italic.ttf) format('truetype');
+    src: local('Raleway Italic'), local('Raleway-Italic'), url(fonts/Raleway_400italic.woff2) format('woff2'), url(fonts/Raleway_400italic.woff) format('woff'), url(fonts/Raleway_400italic.ttf) format('truetype')
 }
+
 @font-face {
     font-family: Raleway;
     font-style: normal;
     font-weight: 600;
-    src: local('Raleway SemiBold'),local('Raleway-SemiBold'),url(fonts/Raleway_600.woff2) format('woff2'),url(fonts/Raleway_600.woff) format('woff'),url(fonts/Raleway_600.ttf) format('truetype');
+    src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(fonts/Raleway_600.woff2) format('woff2'), url(fonts/Raleway_600.woff) format('woff'), url(fonts/Raleway_600.ttf) format('truetype')
 }
+
 @font-face {
     font-family: Raleway;
     font-style: normal;
     font-weight: 700;
-    src: local('Raleway Bold'),local('Raleway-Bold'),url(fonts/Raleway_700.woff2) format('woff2'),url(fonts/Raleway_700.woff) format('woff'),url(fonts/Raleway_700.ttf) format('truetype');
+    src: local('Raleway Bold'), local('Raleway-Bold'), url(fonts/Raleway_700.woff2) format('woff2'), url(fonts/Raleway_700.woff) format('woff'), url(fonts/Raleway_700.ttf) format('truetype')
 }
+
 html {
-    font-size: 62.5%;
+    font-size: 62.5%
 }
+
 body {
     background: #f4f4f4;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
     font-size: 2rem;
     font-style: normal;
     font-variant: normal;
@@ -92,8 +104,9 @@ body {
     padding: 0;
     vertical-align: baseline;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased
 }
+
 a,
 abbr,
 acronym,
@@ -177,15 +190,17 @@ video {
     font: inherit;
     margin: 0;
     padding: 0;
-    vertical-align: baseline;
+    vertical-align: baseline
 }
+
 blockquote,
 blockquote p,
 li,
 p,
 pre {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.8rem
 }
+
 h1,
 h2,
 h3,
@@ -198,13 +213,15 @@ h6 {
     font-weight: 400;
     line-height: 5.4rem;
     margin: 0;
-    padding: 0 0 1.8rem;
+    padding: 0 0 1.8rem
 }
+
 blockquote,
 em,
 i {
-    font-style: italic;
+    font-style: italic
 }
+
 h2,
 h3,
 h4,
@@ -212,235 +229,285 @@ h5,
 h6 {
     font-size: 3.5rem;
     line-height: 4.8rem;
-    padding: 1rem 0 1.8rem;
+    padding: 1rem 0 1.8rem
 }
+
 h3,
 h4,
 h5,
 h6 {
     font-size: 3rem;
     line-height: 4.2rem;
-    padding: 1rem 0 1.8rem;
+    padding: 1rem 0 1.8rem
 }
+
 div,
 figure {
     display: block;
-    position: relative;
+    position: relative
 }
+
 p {
-    line-height: 3rem;
+    line-height: 3rem
 }
+
 a:link,
 a:visited {
-    color: #003642;
-    text-decoration: none;
+    color: #235E6F;
+    text-decoration: none
 }
+
 a:hover {
-    color: #083810;
+    color: #083810
 }
+
 ol,
 ul {
-    margin: 1.8rem 2rem 0;
+    margin: 1.8rem 2rem 0
 }
+
 ul {
-    list-style: disc;
+    list-style: disc
 }
+
 ol {
-    list-style: decimal;
+    list-style: decimal
 }
+
 pre {
-    font-family: 'Roboto Mono',monospace;
+    font-family: 'Roboto Mono', monospace;
     -webkit-hyphens: none;
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
     font-size: 1.5rem;
     font-weight: 400;
-    border: 0.1rem solid #dedede;
+    border: .1rem solid #dedede;
     line-height: normal;
     max-width: 100%;
     overflow: auto;
-    padding: 0.5rem;
+    padding: .5rem
 }
+
 code {
-    padding: 0.2rem 0.4rem;
+    padding: .2rem .4rem;
     margin: 0;
-    border-radius: 0.2rem;
-    background: #d9d9d9;
+    border-radius: .2rem;
+    background: #d9d9d9
 }
+
 blockquote,
 q {
     -webkit-hyphens: none;
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
-    quotes: none;
+    quotes: none
 }
+
 blockquote {
-    border-left: 0.4rem solid #959595;
+    border-left: .4rem solid #c8cada;
     font-size: 2rem;
-    padding-left: 1.6rem;
+    padding-left: 1.6rem
 }
-blockquote > p:last-child {
-    margin-bottom: 0;
+
+blockquote>p:last-child {
+    margin-bottom: 0
 }
+
 .screen-reader-text {
-    clip: rect(1px,1px,1px,1px);
+    clip: rect(1px, 1px, 1px, 1px);
     position: absolute!important;
     height: 1px;
     width: 1px;
-    overflow: hidden;
+    overflow: hidden
 }
+
 header,
 img {
-    height: auto;
+    height: auto
 }
+
 b,
 strong {
-    font-weight: 600;
+    font-weight: 600
 }
+
 nav a,
 nav a:link,
 nav a:visited {
     color: #dedede;
-    text-decoration: none;
+    text-decoration: none
 }
+
 .byline,
 time.secondary {
-    display: none;
+    display: none
 }
+
 .gallery {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.8rem
 }
+
 .gallery-item {
     display: inline-block;
     vertical-align: top;
-    width: 100%;
+    width: 100%
 }
+
 .gallery-columns-2 .gallery-item {
-    max-width: 50%;
+    max-width: 50%
 }
+
 .gallery-columns-3 .gallery-item {
-    max-width: 33.33%;
+    max-width: 33.33%
 }
+
 .gallery-columns-4 .gallery-item {
-    max-width: 25%;
+    max-width: 25%
 }
+
 .gallery-columns-5 .gallery-item {
-    max-width: 20%;
+    max-width: 20%
 }
+
 .gallery-columns-6 .gallery-item {
-    max-width: 16.66%;
+    max-width: 16.66%
 }
+
 .gallery-columns-7 .gallery-item {
-    max-width: 14.28%;
+    max-width: 14.28%
 }
+
 .gallery-columns-8 .gallery-item {
-    max-width: 12.5%;
+    max-width: 12.5%
 }
+
 .gallery-columns-9 .gallery-item {
-    max-width: 11.11%;
+    max-width: 11.11%
 }
+
 .gallery-icon img {
-    margin: 0 auto;
+    margin: 0 auto
 }
+
 .gallery-caption {
     display: block;
     font-size: 1.6rem;
-    padding: 1rem 0;
+    padding: 1rem 0
 }
+
 .gallery-columns-6 .gallery-caption,
 .gallery-columns-7 .gallery-caption,
 .gallery-columns-8 .gallery-caption,
 .gallery-columns-9 .gallery-caption {
-    display: none;
+    display: none
 }
+
 table,
 td,
 th {
-    border: 0.1rem solid #eaeaea;
+    border: .1rem solid #eaeaea
 }
+
 td,
 th {
-    border-width: 0 0.1rem 0.1rem 0;
-    padding: 0.5rem;
+    border-width: 0 .1rem .1rem 0;
+    padding: .5rem
 }
+
 table {
     border-collapse: separate;
     border-spacing: 0;
-    border-width: 0.1rem 0 0 0.1rem;
+    border-width: .1rem 0 0 .1rem;
     margin: 1.8rem 0;
     table-layout: fixed;
-    width: 100%;
+    width: 100%
 }
+
 caption,
 td,
 th {
-    font-weight: 400;
+    font-weight: 400
 }
+
 th {
-    font-weight: 700;
+    font-weight: 700
 }
+
 img {
     -ms-interpolation-mode: bicubic;
     max-width: 100%;
-    vertical-align: middle;
+    vertical-align: middle
 }
+
 figure {
-    margin: 0;
+    margin: 0
 }
+
 .wp-caption {
     margin-bottom: 1.8rem;
-    max-width: 100%;
+    max-width: 100%
 }
+
 .container,
 nav {
-    max-width: 75rem;
+    max-width: 75rem
 }
+
 .wp-caption img[class*=wp-image-] {
     display: block;
-    margin: 0;
+    margin: 0
 }
+
 .wp-caption-text {
     font-size: 1.6rem;
     line-height: normal;
-    padding: 1rem 0;
+    padding: 1rem 0
 }
+
 .alignleft {
     display: inline;
-    float: left;
+    float: left
 }
+
 .alignright {
     display: inline;
-    float: right;
+    float: right
 }
+
 .aligncenter {
     display: block;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto
 }
+
 .wp-caption.alignleft,
 blockquote.alignleft,
 img.alignleft {
-    margin: 0.5rem 1rem 1rem 0;
+    margin: .5rem 1rem 1rem 0
 }
+
 .wp-caption.alignright,
 blockquote.alignright,
 img.alignright {
-    margin: 0.5rem 0 1rem 1rem;
+    margin: .5rem 0 1rem 1rem
 }
+
 .wp-caption.aligncenter,
 blockquote.aligncenter,
 img.aligncenter {
     clear: both;
-    margin-top: 0.5rem;
-    margin-bottom: 1.8rem;
+    margin-top: .5rem;
+    margin-bottom: 1.8rem
 }
+
 .wp-caption.aligncenter,
 .wp-caption.alignleft,
 .wp-caption.alignright {
-    margin-bottom: 0.5em;
+    margin-bottom: .5em
 }
+
 .clear:after,
 .clear:before,
 .entry-content:after,
@@ -456,98 +523,119 @@ img.aligncenter {
 .textwidget:after,
 .textwidget:before {
     content: "";
-    display: table;
+    display: table
 }
+
 [id^=drop],
 nav .toggle,
 nav ul ul {
-    display: none;
+    display: none
 }
+
 header {
     background: #222;
-    border-bottom: 0.3rem solid #003642;
+    border-bottom: .3rem solid #526076;
     color: #fff;
     min-width: 100%;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2
 }
+
 .background {
-    background: url("images/frst.jpg") center center/cover;
+    background: url(images/badsanta.jpg) center center/cover;
     height: 100%;
-    opacity: 0.85;
+    opacity: .85;
     position: fixed;
     width: 100%;
-    z-index: -999;
+    z-index: -999
 }
+
 nav p {
-    text-align: center;
+    text-align: center
 }
+
 nav {
     background: #222;
-    margin: 0 auto;
+    margin: 0 auto
 }
+
 nav:after {
-    display: table;
+    display: table
 }
+
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    position: relative;
+    position: relative
 }
+
 nav ul li {
     background-color: #222;
     display: inline-block;
-    margin: 0;
+    margin: 0
 }
+
 nav a {
     display: block;
     font-size: 2rem;
     line-height: 6rem;
-    padding: 0 2rem;
+    padding: 0 2rem
 }
+
 nav a:hover {
     color: #fff;
-    background-color: #003642;
+    background-color: #526076
 }
+
 nav ul li ul li:hover {
-    background: #003642;
+    background: #526076
 }
+
 nav ul ul {
     position: absolute;
-    top: 6rem;
+    top: 6rem
 }
-nav ul li:hover > ul {
-    display: inherit;
+
+nav ul li:hover>ul {
+    display: inherit
 }
+
 nav ul ul li {
     display: list-item;
     float: none;
     position: relative;
-    width: 17rem;
+    width: 17rem
 }
+
 nav ul ul ul li {
     left: 17rem;
     position: relative;
-    top: -6rem;
+    top: -6rem
 }
-nav li > a:after {
-    content: ' +';
+
+nav li>a:after {
+    content: ' +'
 }
-nav li > a:only-child:after {
-    content: '';
+
+nav li>a:only-child:after {
+    content: ''
 }
+
 .pull-down {
-    height: 10rem;
+    height: 10rem
 }
+
 .pull-down-footer {
-    height: 5rem;
+    height: 5rem
 }
+
 .container {
     margin: 0 auto;
-    overflow: hidden;
+    overflow: hidden
 }
+
 .error-404,
 .page-header,
 article,
@@ -556,8 +644,9 @@ section {
     color: #222;
     display: block;
     margin-bottom: 6rem;
-    padding: 0;
+    padding: 0
 }
+
 .article-header,
 .page-title {
     font-size: 4rem;
@@ -565,302 +654,335 @@ section {
     font-variant: normal;
     line-height: 5.4rem;
     margin: 0;
-    padding: 5rem 4.4rem 1rem;
+    padding: 5rem 4.4rem 1rem
 }
+
 .page-title {
-    color: #003642;
-    padding: 1rem 4.4rem;
+    color: #235E6F;
+    padding: 1rem 4.4rem
 }
+
 .article-header a:link,
 .article-header a:visited,
 .section-header a:link,
 .section-header a:visited {
-    color: #003642;
-    text-decoration: none;
+    color: #235E6F;
+    text-decoration: none
 }
+
 .article-header a:hover,
 .section-header a:hover {
     color: #083810;
-    text-decoration: none;
+    text-decoration: none
 }
+
 .entry-meta {
     color: #999;
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 3rem;
-    padding: 0 4.4rem;
+    padding: 0 4.4rem
 }
+
 .entry-content,
 .section-content {
     margin-bottom: 0;
-    padding: 0 4.4rem;
+    padding: 0 4.4rem
 }
+
 .entry-footer {
     background: #dedede;
     color: #3b3b3b;
     font-size: 1.7rem;
     margin: 0;
-    padding: 2rem 4.4rem;
+    padding: 2rem 4.4rem
 }
+
 .entry-footer-page {
-    min-height: 2rem;
+    min-height: 2rem
 }
+
 .entry-footer p {
     line-height: 2.5rem;
     margin: 0;
-    padding: 0;
+    padding: 0
 }
+
 .navigation {
     background: 0 0;
     margin: 4rem 0 5rem;
-    width: 100%;
+    width: 100%
 }
+
 .navigation .nav-links .nav-previous,
 .post-navigation .nav-links .nav-previous {
     background: #222;
     float: left;
-    opacity: 0.75;
+    opacity: .75;
     text-align: left;
-    width: 50%;
+    width: 50%
 }
+
 .post-navigation .nav-links .nav-previous {
     float: none;
-    width: 100%;
+    width: 100%
 }
+
 .navigation .nav-links .nav-next,
 .post-navigation .nav-links .nav-next {
     background: #222;
     float: right;
-    opacity: 0.75;
+    opacity: .75;
     text-align: right;
-    width: 50%;
+    width: 50%
 }
+
 .post-navigation .nav-links .nav-next {
     float: none;
     margin-top: 2rem;
     text-align: left;
-    width: 100%;
+    width: 100%
 }
+
 .navigation .nav-links .nav-next a,
 .navigation .nav-links .nav-previous a {
     font-size: 2.2rem;
     line-height: 3.3rem;
     margin: 0;
-    padding: 2rem 4.4rem;
+    padding: 2rem 4.4rem
 }
+
 .navigation .nav-links .nav-previous a:before {
-    content: "\00ab\00a0";
+    content: "\00ab\00a0"
 }
+
 .navigation .nav-links .nav-next a:after {
-    content: "\00a0\00bb";
+    content: "\00a0\00bb"
 }
+
 .navigation .nav-links .nav-next a:hover,
 .navigation .nav-links .nav-previous a:hover {
     color: #fff;
-    line-height: 3.3rem;
+    line-height: 3.3rem
 }
+
 footer {
-    display: block;
+    display: block
 }
+
 .footer-content {
     background: #222;
-    border-top: 0.3rem solid #003642;
+    border-top: .3rem solid #526076
 }
-.footer-content > div {
+
+.footer-content>div {
     color: #fff;
     margin: 0 auto;
     max-width: 75rem;
-    overflow: hidden;
+    overflow: hidden
 }
+
 .footer-content .tags {
     float: right;
     max-width: 58%;
     min-width: 58%;
-    padding: 2rem 0;
+    padding: 2rem 0
 }
+
 .footer-content .info {
     float: left;
     max-width: 36%;
     min-width: 36%;
-    padding: 2rem 0;
+    padding: 2rem 0
 }
+
 .footer-content .title {
-    border-bottom: 0.1rem solid #959595;
+    border-bottom: .1rem solid #c8cada;
     font-size: 2.2rem;
     margin: 0 0 2.1rem;
-    padding-bottom: 0.7rem;
-    position: relative;
+    padding-bottom: .7rem;
+    position: relative
 }
+
 .footer-content .title:after {
-    background: #003642;
+    background: #526076;
     bottom: -.1rem;
     content: "";
-    height: 0.1rem;
+    height: .1rem;
     left: 0;
     position: absolute;
-    width: 9rem;
+    width: 9rem
 }
+
 .footer-content .info a,
 .footer-wtfpl a {
-    color: #003642;
+    color: #c8cada
 }
+
 .footer-content .info a:hover,
 .footer-wtfpl a:hover {
-    color: #57616A;
+    color: #fdfddd
 }
+
 .footer-content .tags a {
-    border: 0.1rem solid #003642;
-    color: #959595;
+    border: .1rem solid #fdfddd;
+    color: #c8cada;
     display: inline-block;
     font-size: 1.4rem;
     line-height: 2.1rem;
-    margin: 0 0.7rem 0.7rem 0;
-    padding: 0.2rem 0.7rem;
+    margin: 0 .7rem .7rem 0;
+    padding: .2rem .7rem
 }
+
 .footer-content .tags a:hover {
-    color: #57616A;
+    color: #fdfddd
 }
+
 .footer-content p {
-    color: #959595;
+    color: #526076;
     font-size: 1.8rem;
-    line-height: 2.2rem;
+    line-height: 2.2rem
 }
+
 .footer-wtfpl {
-    background: #1a1a1a;
+    background: #1a1a1a
 }
-.footer-wtfpl > div {
+
+.footer-wtfpl>div {
     color: #fff;
     margin: 0 auto;
     max-width: 75rem;
-    overflow: hidden;
+    overflow: hidden
 }
-.footer-wtfpl > div > div {
-    padding: 0.5rem 0;
+
+.footer-wtfpl>div>div {
+    padding: .5rem 0
 }
+
 .footer-wtfpl span {
-    color: #959595;
+    color: #526076;
     font-size: 1.4rem;
-    margin: 0;
+    margin: 0
 }
-.footer-wtfpl .copy::after {
+
+.footer-wtfpl .pipe::before {
+    content: ""
+}
+
+.footer-wtfpl .copy::after,
+.footer-wtfpl .pipe::after {
     content: " | ";
-    padding: 0 0.7rem;
+    padding: 0 .5rem
 }
-.footer-wtfpl .license::before,
-.footer-wtfpl .privacy::before {
-    content: "";
-}
-.footer-wtfpl .license::after,
-.footer-wtfpl .privacy::after {
-    content: " | ";
-    padding: 0 0.5rem;
-}
+
 @media all and (max-width:800px) {
     h2,
     h3,
     h4,
     h5,
     h6 {
-        padding: 0.8rem 0 1.6rem;
+        padding: .8rem 0 1.6rem
     }
     body,
     p {
-        line-height: 2.9rem;
+        line-height: 2.9rem
     }
     li,
     ol,
     ul {
-        margin: 1rem 2rem 0;
+        margin: 1rem 2rem 0
     }
     li {
-        margin: 1rem 0;
+        margin: 1rem 0
     }
     .footer-content .info,
     .footer-content .tags {
         max-width: 100%;
         min-width: 100%;
-        float: none;
+        float: none
     }
     .background,
     .pull-down,
     nav .menu,
     nav .toggle+a {
-        display: none;
+        display: none
     }
     nav ul ul,
     nav ul ul ul li {
-        position: static;
+        position: static
     }
     body {
         background: #f4f4f4;
-        font-size: 1.8rem;
+        font-size: 1.8rem
     }
     header {
-        position: relative;
+        position: relative
     }
+    article,
+    section,
     .page-header,
-    article {
-        margin-bottom: 0;
+    .error-404 {
+        margin-bottom: 0
     }
     blockquote p,
     p {
-        margin-bottom: 1.6rem;
+        margin-bottom: 1.6rem
     }
     h2 {
         font-size: 3rem;
-        line-height: 4.2rem;
+        line-height: 4.2rem
     }
     h3,
     h4,
     h5,
     h6 {
         font-size: 2.5rem;
-        line-height: 3.7rem;
+        line-height: 3.7rem
     }
     .wp-caption-text,
     pre {
-        font-size: 1.4rem;
+        font-size: 1.4rem
     }
     blockquote {
-        font-size: 1.8rem;
+        font-size: 1.8rem
     }
     .article-header,
     .page-title {
         font-size: 3.5rem;
-        padding: 2rem 2rem 0.5rem;
-        line-height: 4.8rem;
+        padding: 2rem 2rem .5rem;
+        line-height: 4.8rem
     }
     .page-title {
-        border-bottom: 0.1rem #dedede solid;
+        border-bottom: .1rem #dedede solid;
         color: #444;
-        padding: 2rem;
+        padding: 2rem
     }
     .entry-meta {
         font-size: 1.6rem;
         margin-bottom: 2rem;
-        padding: 0 2rem;
+        padding: 0 2rem
     }
     .entry-content,
     .section-content {
         margin-bottom: 0;
-        padding: 0 2rem;
+        padding: 0 2rem
     }
     .entry-footer {
         font-size: 1.5rem;
-        padding: 2rem;
+        padding: 2rem
     }
     .entry-footer p {
-        line-height: 2.5rem;
+        line-height: 2.5rem
     }
     .entry-footer-page {
         display: none;
-        min-height: auto;
+        min-height: auto
     }
     .navigation {
-        margin: 2rem 0;
+        margin: 2rem 0
     }
     .post-navigation .nav-links .nav-next {
-        margin-top: 0;
+        margin-top: 0
     }
     .navigation .nav-links .nav-next,
     .navigation .nav-links .nav-previous,
@@ -868,51 +990,45 @@ footer {
     .post-navigation .nav-links .nav-previous {
         opacity: 1;
         background: 0 0;
-        width: auto;
+        width: auto
     }
     .navigation .nav-links .nav-next a,
     .navigation .nav-links .nav-previous a {
-        color: #003642;
+        color: #235E6F;
         font-size: 1.8rem;
         line-height: 3.3rem;
-        padding: 0 2rem;
+        padding: 0 2rem
     }
     .navigation .nav-links .nav-next a:hover,
     .navigation .nav-links .nav-previous a:hover {
         background: 0 0;
         color: #222;
-        text-decoration: underline;
+        text-decoration: underline
     }
     .footer-content {
-        max-width: 100%;
+        max-width: 100%
     }
-    .footer-content > div {
+    .footer-content>div {
         padding: 0 2rem;
-        width: auto;
+        width: auto
     }
     .footer-content .info p {
-        margin-bottom: 1.2rem;
+        margin-bottom: 1.2rem
     }
-    .footer-wtfpl > div {
-        padding: 0 2rem;
+    .footer-wtfpl>div {
+        padding: 0 2rem
+    }
+    .footer-wtfpl .copy {
+        display: block
     }
     .footer-wtfpl .copy::after {
-        content: " | ";
-        padding: 0 0.5rem;
-    }
-    .footer-wtfpl .license::before,
-    .footer-wtfpl .privacy::before {
-        content: "";
-    }
-    .footer-wtfpl .license::after,
-    .footer-wtfpl .privacy::after {
-        content: " | ";
-        padding: 0 0.5rem;
+        content: " ";
+        padding: 0
     }
     nav .toggle,
     nav [id^=drop]:checked+ul,
     nav ul li {
-        display: block;
+        display: block
     }
     nav .toggle {
         background-color: #222;
@@ -921,156 +1037,150 @@ footer {
         font-size: 2rem;
         line-height: 6rem;
         padding: 0 2rem;
-        text-decoration: none;
+        text-decoration: none
     }
     nav .toggle:hover,
     nav a:hover,
     nav ul ul ul a {
-        background-color: #003642;
+        background-color: #235E6F
     }
     nav ul li {
-        width: 100%;
+        width: 100%
     }
     nav ul ul .toggle,
     nav ul ul a {
-        padding: 0 4rem;
+        padding: 0 4rem
     }
     nav ul ul ul a {
-        padding: 0 8rem;
+        padding: 0 8rem
     }
     nav ul li ul li .toggle,
     nav ul ul a {
-        background-color: #2e2e2e;
+        background-color: #2e2e2e
     }
     nav ul ul {
         color: #fff;
-        float: none;
+        float: none
     }
-    nav ul li:hover > ul,
-    nav ul ul li:hover > ul {
-        display: none;
+    nav ul li:hover>ul,
+    nav ul ul li:hover>ul {
+        display: none
     }
     nav ul ul li {
         display: block;
-        width: 100%;
+        width: 100%
     }
 }
+
 @media all and (max-width:550px) {
     .page-title,
     article {
-        background: #fff;
+        background: #fff
     }
     .entry-meta,
     .footer-content p,
     blockquote p,
     p {
-        margin-bottom: 1.4rem;
+        margin-bottom: 1.4rem
     }
     body {
-        font-size: 1.6rem;
+        font-size: 1.6rem
     }
     li,
     ol,
     ul {
-        margin: 0.6rem 2rem 0;
+        margin: .6rem 2rem 0
     }
     li {
-        margin: 0.6rem 0;
+        margin: .6rem 0
     }
     nav ul li {
-        display: block;
+        display: block
     }
     .footer-content .tags,
     .pull-down {
-        display: none;
+        display: none
     }
     .article-header,
     .page-title {
         font-size: 2.5rem;
         line-height: 3.5rem;
-        padding: 2rem 2rem 0;
+        padding: 2rem 2rem 0
     }
     .page-title {
-        padding: 2rem;
+        padding: 2rem
     }
     h2,
     h3,
     h4,
     h5,
     h6 {
-        padding: 0.6rem 0 1.4rem;
+        padding: .6rem 0 1.4rem
     }
     h2 {
         font-size: 2.2rem;
-        line-height: 3.2rem;
+        line-height: 3.2rem
     }
     h3,
     h4,
     h5,
     h6 {
         font-size: 2rem;
-        line-height: 2.9rem;
+        line-height: 2.9rem
     }
     body,
     p {
-        line-height: 2.5rem;
+        line-height: 2.5rem
     }
     pre {
-        font-size: 1.2rem;
+        font-size: 1.2rem
     }
     blockquote {
-        font-size: 1.6rem;
+        font-size: 1.6rem
     }
     .gallery-item {
-        padding-right: 1rem;
+        padding-right: 1rem
     }
     .wp-caption-text {
         font-size: 1.2rem;
-        padding: 0.5rem 0;
+        padding: .5rem 0
     }
     .entry-meta {
         font-size: 1.6rem;
-        padding: 0 2rem;
+        padding: 0 2rem
     }
     .entry-footer {
-        font-size: 1.4rem;
+        font-size: 1.4rem
     }
     .entry-footer p {
-        line-height: 2.3rem;
+        line-height: 2.3rem
     }
     .footer-content p,
     .navigation .nav-links .nav-next a:hover,
     .navigation .nav-links .nav-previous a:hover {
-        line-height: 2.5rem;
+        line-height: 2.5rem
     }
     .navigation .nav-links .nav-next a,
     .navigation .nav-links .nav-previous a {
         font-size: 1.6rem;
-        line-height: 2.5rem;
+        line-height: 2.5rem
     }
     .footer-content .title {
-        font-size: 1.8rem;
+        font-size: 1.8rem
     }
     .footer-content .tags a {
         font-size: 1.3rem;
-        padding: 0.2rem 0.7rem;
+        padding: .2rem .7rem
     }
     .footer-content p {
-        font-size: 1.6rem;
+        font-size: 1.6rem
     }
     .footer-content .info p {
-        margin-bottom: 1.2rem;
-    }
-    .footer-wtfpl .copy {
-        display: block;
-    }
-    .footer-wtfpl .copy::after {
-        content: " ";
-        padding: 0;
+        margin-bottom: 1.2rem
     }
     .footer-wtfpl span {
         font-size: 1.25rem;
         line-height: 2rem;
-        margin: 0;
+        margin: 0
     }
 }
